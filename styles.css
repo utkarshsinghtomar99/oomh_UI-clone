@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    border-bottom: 2px solid black;
+}
+
+.first-half, .second-half, ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+ul li {
+    margin-top: 5px;
+    margin: 0 10px;
+}
+
+.first-ul {
+    margin-left: 100px;
+}
+
+.second-half ul .link {
+    margin: 0 5px;
+}
+
+.second-half button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 0 13px;
+    border-radius: 100px;
+}
+
+.container {
+    /* background-color: orangered; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 90vh;
+}
+
+.container .heading {
+    /* background-color: red; */
+    width: 50%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading span {
+    position: relative;
+}
+
+.circle {
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+
+.heading h1 {
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+.heading p span {
+    margin: 0 50px;
+}
+
+.heading p .acc {
+    border-bottom: 1px solid black;
+}
+.heading p .pro-f {
+    color: rgba(134, 134, 134, 0.493);
+}
+
+.img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 90vh;
+}
+
+.img img {
+    width: 60%;
+}
+
+.bottom-container {
+    /* background-color: chartreuse; */
+    display: flex;
+    min-height: 50vh;
+    width: 100%;
+}
+
+.box {
+    height: 50vh;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-1 button {
+    width: 220px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.box-1 .btn-1 {
+    width: 100px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.box-1 .btn-2 {
+    margin-top: 80px;
+    width: 178px;
+}
+
+.box-1 .btn-4 {
+    width: 85px;
+}
+
+.bottom-container .box-2 {
+    background-color: orangered;
+}
+
+.bottom-container .box-2 p {
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.bottom-container .box-2 h2 {
+    margin-top: 70px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.bottom-container .box-3 p {
+    margin-bottom: 88px;
+    margin-left: 20px;
+    width: 60%;
+}
+
+.box-3 img{
+    width: 45%;
+    /* margin-top: 110px; */
+}
+
+.box-4 {
+    background-color: rgb(221, 221, 221);
+}
+
+.box-4 p {
+    margin-left: 20px;
+}
+
+.box-4 h2 {
+    margin-top: 110px;
+    font-size: 90px;
+    margin-left: 20px;
+}
+
+.box-4 h2 sup {
+    color: red;
+}
+
+.line {
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    right: 580px;
+}
+
